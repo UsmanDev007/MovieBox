@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MovieBox Hollywood|Bollywood|Punjabi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style2.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-dark">
+        <div class="container-fluid" id="navbar">
+          <a class="navbar-brand" href="landing.html" id="link">MovieBox</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="landing.html" id="link">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link active" href="#" id="link">About</a>
+              </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-secondary" type="submit">Search</button>
+              </form>
+          </div>
+        </div>
+      </nav>
+      <!-- Crousal -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <!-- rating -->
+            <div class="card-img-overlay mt-5" style="margin-left: 50px;">
+              <h1 class="card-title">Fast and Furious</h1>
+              <h4 class="card-text">Landed in Cinemas</h4>
+              <h6 class="card-text"><span><i class="fa-solid fa-star" style="color: #FFDF00;"></i>8.9 IMDb Rating Action Movie </span></h6>
+              <p class="card-text"><h5>May 19, 2023</h5></p>
+            </div>
+            <!-- rating -->
+            <img src="fast and furious.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="money_heist.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Pathaan-01.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- trending -->
+      <i class="fa-sharp fa-solid fa-arrow-trend-up mt-5" style="color: white; font-weight: bold; margin-left: 50px;">Trends Now</i>
+      <div class="container mt-3">
+      <button type="button" class="btn btn" id="mov_cat_btn1">Action</button>
+      <button type="button" class="btn btn" id="mov_cat_btn2">Adventure</button>
+      <button type="button" class="btn btn" id="mov_cat_btn3">Thriller</button>
+      <button type="button" class="btn btn" id="mov_cat_btn4">Romantic</button>
+      <button type="button" class="btn btn" id="mov_cat_btn5">Animation</button>
+    </div>
+    <!-- trending movie card -->
+    <div class="container mt-3" id="Trends">
+      <div class="row">
+        <div class="col" >
+          <div class="card" style="width: 15rem;" id="trending_mov_cards">
+            <img src="/img/spiderman.jpg" class="card-img-top" alt="..." id="action1">
+            <div class="card-body">
+              <h5 class="card-title" id="movie_title1">Spider Man</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, nisi! Aliquid, exercitationem voluptatum!</p>
+             <a href="Movies/movie1.html" target="_blank"><button type="button" class="btn btn" id="mov_cat_btn_wat">Watch</button></a> 
+             <button type="button" class="btn btn" id="mov_cat_btn_dow">Download</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 15rem;" id="trending_mov_cards">
+            <img src="/img/avengers.jpg" class="card-img-top" alt="..." id="action2">
+            <div class="card-body">
+              <h5 class="card-title" id="movie_title2">Avangers</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, nisi! Aliquid, exercitationem voluptatum!</p>
+             <a href="Movies/Movie2.html" target="_blank"><button type="button" class="btn btn" id="mov_cat_btn_wat">Watch</button></a>
+             <button type="button" class="btn btn" id="mov_cat_btn_dow">Download</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 15rem;" id="trending_mov_cards" >
+            <img src="/img/ant man.jpg" class="card-img-top" alt="..." id="action3">
+            <div class="card-body">
+              <h5 class="card-title" id="movie_title3">Ant Man</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, nisi! Aliquid, exercitationem voluptatum!</p>
+             <a href="Movies/movie3.html" target="_blank"><button type="button" class="btn btn" id="mov_cat_btn_wat">Watch</button></a>
+             <button type="button" class="btn btn" id="mov_cat_btn_dow">Download</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 15rem;" id="trending_mov_cards">
+            <img src="/img/thor love of thunder.jpg" class="card-img-top" alt="..." id="action4">
+            <div class="card-body">
+              <h5 class="card-title" id="movie_title4">Thor Love of Thunder</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, nisi! Aliquid, exercitationem voluptatum!</p>
+             <a href="Movies/movie4.html" target="_blank"><button type="button" class="btn btn" id="mov_cat_btn_wat">Watch</button></a>
+              <button type="button" class="btn btn" id="mov_cat_btn_dow">Download</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Hollywood Bollywood Punjabi -->
+    <i class="fa-solid fa-clapperboard"  style="color: white; font-weight: bold; margin-left: 50px;">Movies</i>
+    <div class="container mt-3">
+      <button type="button" class="btn btn" id="mov_cat_btn6">Hollywood</button>
+      <button type="button" class="btn btn" id="mov_cat_btn6">BollyWood</button>
+      <button type="button" class="btn btn" id="mov_cat_btn6">Punjabi</button>
+    </div>
+    <!-- bollywood -->
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col" >
+          <div class="card" style="width: 15rem;" id="trending_mov_cards">
+            <img src="/hbp/dhoni.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Aashiqui 2</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, nisi! Aliquid, exercitationem voluptatum!</p>
+              <button type="button" class="btn btn" id="mov_cat_btn_wat">Watch</button>
+              <button type="button" class="btn btn" id="mov_cat_btn_dow">Download</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 15rem;" id="trending_mov_cards">
+            <img src="/hbp/bmb.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bhag Mika Bhag</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, nisi! Aliquid, exercitationem voluptatum!</p>
+             <button type="button" class="btn btn" id="mov_cat_btn_wat">Watch</button>
+              <button type="button" class="btn btn" id="mov_cat_btn_dow">Download</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 15rem;" id="trending_mov_cards">
+            <img src="hbp/gangs of wassepur.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Gangs of Wassepur</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, nisi! Aliquid, exercitationem voluptatum!</p>
+             <button type="button" class="btn btn" id="mov_cat_btn_wat">Watch</button>
+             <button type="button" class="btn btn" id="mov_cat_btn_dow">Download</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 15rem;" id="trending_mov_cards">
+            <img src="/hbp/lukka chuppi.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lukka Chuppi</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, nisi! Aliquid, exercitationem voluptatum!</p>
+             <button type="button" class="btn btn" id="mov_cat_btn_wat">Watch</button>
+          <button type="button" class="btn btn" id="mov_cat_btn_dow">Download</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Next cards for hollywood -->
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col" >
+          <div class="card" style="width: 15rem;" id="trending_mov_cards">
+            <img src="hbp/Mulan_(2020_film)_poster.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Mulan 2020</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, nisi! Aliquid, exercitationem voluptatum!</p>
+              <button type="button" class="btn btn " id="mov_cat_btn_wat">Watch</button>
+              <button type="button" class="btn btn" id="mov_cat_btn_dow">Download</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 15rem;" id="trending_mov_cards">
+            <img src="/hbp/13-assassins-poster-movie.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Assassin 13</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, nisi! Aliquid, exercitationem voluptatum!</p>
+             <button type="button" class="btn btn" id="mov_cat_btn_wat">Watch</button>
+              <button type="button" class="btn btn" id="mov_cat_btn_dow">Download</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 15rem;" id="trending_mov_cards">
+            <img src="/hbp/post-4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dune</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, nisi! Aliquid, exercitationem voluptatum!</p>
+             <button type="button" class="btn btn" id="mov_cat_btn_wat">Watch</button>
+             <button type="button" class="btn btn" id="mov_cat_btn_dow">Download</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 15rem;" id="trending_mov_cards">
+            <img src="/hbp/post-9.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Wanda Vision</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, nisi! Aliquid, exercitationem voluptatum!</p>
+             <button type="button" class="btn btn" id="mov_cat_btn_wat">Watch</button>
+            <button type="button" class="btn btn" id="mov_cat_btn_dow">Download</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- next card punjabi -->
+  <div class="container mt-3">
+    <div class="row">
+      <div class="col" >
+        <div class="card" style="width: 15rem;" id="trending_mov_cards">
+          <img src="Images/Jind Mahi 2022 Punjabi.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Jind Mahi 2022</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, nisi! Aliquid, exercitationem voluptatum!</p>
+            <button type="button" class="btn btn" id="mov_cat_btn_wat">Watch</button>
+            <button type="button" class="btn btn" id="mov_cat_btn_dow">Download</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 15rem;" id="trending_mov_cards">
+          <img src="/Images/Teri Meri Nahi Nibhni 2021 Punjabi.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Teri Meri Nahi Nibhni</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, nisi! Aliquid, exercitationem voluptatum!</p>
+           <button type="button" class="btn btn" id="mov_cat_btn_wat">Watch</button>
+            <button type="button" class="btn btn" id="mov_cat_btn_dow">Download</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 15rem;" id="trending_mov_cards">
+          <img src="/Images/Rabba Rabba Meeh Varsa 2022 Punjabi.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Rabba Rabba Meeh Varsa</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, Aliquid, exercitationem</p>
+           <button type="button" class="btn btn" id="mov_cat_btn_wat">Watch</button>
+           <button type="button" class="btn btn" id="mov_cat_btn_dow">Download</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 15rem;" id="trending_mov_cards">
+          <img src="/Images/Yes I am Student 2021.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Yes I am Student</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, nisi! Aliquid, exercitationem voluptatum!</p>
+           <button type="button" class="btn btn" id="mov_cat_btn_wat">Watch</button>
+          <button type="button" class="btn btn" id="mov_cat_btn_dow">Download</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+     <!-- pagination -->  
+     <div class="container">
+      <nav aria-label="Page navigation example" >
+      <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="landing.html" id="fp">1</a><li>
+        <li class="page-item"><a class="page-link" href="page2.html" id="sp">2</a></li>
+        <li class="page-item"><a class="page-link" href="page3.html" id="tp">3</a></li>
+        <li class="page-item"><a class="page-link" href="page2.html">Next</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="container mt-5 text-center" id="footer" >
+    <div class="row">
+      <div class="col">
+        <h4 class="last_para1">Company</h4>
+        <p class="last_para">About Us</p>
+        <p class="last_para">Media Kit</p>
+        <p class="last_para">News</p>
+        <p class="last_para">Blog</p>
+      </div>
+      <div class="col">
+        <h4 class="last_para1">Market place</h4>
+        <p class="last_para">Headquater</p>
+        <p class="last_para">Studio</p>
+        <p class="last_para">Partnership</p>
+        <p class="last_para">Studio Street NO 21 Wah Cantt</p>
+      </div>
+      <div class="col">
+        <h4 class="last_para1">Support</h4>
+        <p class="last_para">Contact Us</p>
+        <p class="last_para">User Guide</p>
+        <p class="last_para">Help</p>
+        <p class="last_para">Webinars</p>
+      </div>
+      <div class="col">
+        <h4 class="last_para1">Social</h4>
+        <p class="last_para"><i class="fa-brands fa-facebook" style="font-size: 22px;"></i></p>
+        <p class="last_para"><i class="fa-brands fa-instagram" style="font-size: 22px;"></i></p>
+        <p class="last_para"><i class="fa-brands fa-youtube" style="font-size: 22px;"></i></p>
+        <p class="last_para"><i class="fa-brands fa-twitter" style="font-size: 22px;"></i></p>
+      </div>
+    </div>
+  </div>
+    
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="first_page.js"></script>
+  </body>
+</html>

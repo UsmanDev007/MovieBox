@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.form {
+    margin-top: 100px;
+    color: white;
+    font-weight: 300;
+    
+}
+#login{
+    background-color: rgb(131, 16, 16);
+    color: white;
+    border: none;
+    width: 90px;
+}
+h1{
+    color: rgb(219, 0, 0);
+    font-weight: 900;
+}
+h2{
+    color: white;
+    font-weight: 700;
+}
+h3{
+    color: white;
+}
+#myVideo{
+ position: absolute;
+ right: 0;
+ bottom: 0;
+ z-index: -1;
+}
+@media (min-aspect-ratio:16/9) {
+    #myVideo {
+        width: 100%;
+        height: auto;
+    }
+    
+}
+@media (max-aspect-ratio:16/9) {
+    #myVideo {
+        width: auto;
+        height: 100%;
+    }
+    
+}
