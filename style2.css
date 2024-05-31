@@ -107,3 +107,18 @@ body{
 .last_para:hover{
     text-decoration: underline;
 }
+#catagories{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+@media screen and  (max-width:450px) {
+    .row{
+        margin-left: 10%;
+    }
+    #footer .row{
+       
+        margin-left: 2%;
+    }
+}
